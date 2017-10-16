@@ -7,6 +7,7 @@ public class NewsSource {
     private String baseurl;
     private String rss;
     private boolean active;
+    
     public String getName() {
         return name;
     }
