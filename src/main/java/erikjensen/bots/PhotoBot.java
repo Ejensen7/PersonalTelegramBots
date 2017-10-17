@@ -1,4 +1,4 @@
-package erikjensen.helpers;
+package erikjensen.bots;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -18,7 +18,7 @@ public class PhotoBot extends TelegramLongPollingBot{
     private String botToken = "464814473:AAFeC3vufaAI2qEV-FmlqXcrwz8dmx_oqWk";
     private String botUsername = "ErikPhotoBot";
 
-    public void onUpdateReceived(Update update) {
+    public void onUpdateReceived(Update update) {/*
 
         // We check if the update has a message and the message has text
         if (update.hasMessage() && update.getMessage().hasText()) {
@@ -138,7 +138,7 @@ public class PhotoBot extends TelegramLongPollingBot{
                 e.printStackTrace();
             }
         }
-    }
+    */}
 
     public String getBotUsername() {
         return botUsername;

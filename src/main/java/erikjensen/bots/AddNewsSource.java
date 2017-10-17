@@ -1,4 +1,4 @@
-package erikjensen.helpers;
+package erikjensen.bots;
 
 public class AddNewsSource {
 
